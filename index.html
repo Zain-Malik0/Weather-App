@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--For Body Background-->
+    <div class="background-overlay"></div>
+
+    <!--For auto location getter-->
+    <div class="current-location js-current-location">Your Current Location> <span class="current-location-text js-current-location-text"></span></div>
+
+    <div class="weather-card">
+      <div class="search">
+        <input class="search-input js-search-input" placeholder="Search your city">
+        <div class="search-div js-search-button">
+          <img class="search-icon" src="images/search.png">
+        </div>
+      </div>
+      <div class="weather-icon-div">
+        <img class="weather-icon" src="images/clouds.png">
+      </div>
+      <div class="temperature-div js-temperature-div">
+        
+      </div>
+      <div class="city-div js-city-div">
+      
+      </div>
+
+      <!--Humidity-->
+      <div class="humidity-div">
+        <img class="humidity-img" src="images/humidity.png">
+        <div>Humidity: <span class="humidity-per"></span></div>
+      </div>
+
+      <!--Wind-->
+      <div class="wind-div">
+        <img class="wind-img" src="images/wind.png">
+        <div>Wind Speed: <span class="wind-speed"></span></div>
+      </div>
+    </div>
+
+    <!--Credit Section-->
+    <div class="credit">
+      <a href="https://github.com/Zain-Malik0/Weather-App" target="_blank">Made by: <span class="credit-name">M Zain Malik</span></a>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
